@@ -10,8 +10,22 @@
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App button{
+ 
+  padding: 8px 16px;
+  font-size: 14px;
+  color: white;
+  background: none;
+  border: 2px solid #2ecc71;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid #2ecc71;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.App button:hover{
+	 background: #2ecc71;
+	 border-color: #04642D;
 }

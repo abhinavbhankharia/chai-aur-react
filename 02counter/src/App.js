@@ -25,8 +25,9 @@ function App() {
   return (
     <>
     <div className='App'>
-      <h1>Chai aur react</h1>
-      <h2>Counter Value: {counter}</h2>
+      <h1>Counter Using React</h1>
+      <h2>Value:</h2>
+      <h2>{counter}</h2>
       <button onClick={addValue} >Add Value</button>
       <br/>
       <button onClick={removeValue}>remove Value</button>
