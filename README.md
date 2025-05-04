@@ -1,3 +1,2 @@
 # chai-aur-react
-# hello world
-# bkc
+# Repo to track learning progress and development practice for ReactJs
